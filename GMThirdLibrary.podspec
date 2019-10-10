@@ -29,14 +29,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-    s.requires_arc = true
   s.source_files = 'GMThirdLibrary/Classes/**/*'
 
 
-#微信 QQ 新浪 基础组件
+#钥匙串存储
 s.subspec 'GMkeyChain' do |aa|
         aa.source_files = 'GMThirdLibrary/Classes/keyChain/**/*'
         aa.frameworks     = 'Security'
+        aa.requires_arc = false
 end
 
 
