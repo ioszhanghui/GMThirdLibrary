@@ -18,13 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "requires_arc": true,
   "source_files": "GMThirdLibrary/Classes/**/*",
   "subspecs": [
     {
       "name": "GMkeyChain",
       "source_files": "GMThirdLibrary/Classes/keyChain/**/*",
-      "frameworks": "Security"
+      "frameworks": "Security",
+      "requires_arc": true
     }
   ]
 }
