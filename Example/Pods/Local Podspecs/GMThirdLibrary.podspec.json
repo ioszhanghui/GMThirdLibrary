@@ -1,0 +1,30 @@
+{
+  "name": "GMThirdLibrary",
+  "version": "0.1.0",
+  "summary": "三方的依赖库",
+  "description": "三方的依赖库 1.钥匙串保存库",
+  "homepage": "https://github.com/ioszhanghui/GMThirdLibrary.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui/GMThirdLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "GMThirdLibrary/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "GMkeyChain",
+      "source_files": "GMThirdLibrary/Classes/keyChain/**/*",
+      "frameworks": "Security"
+    }
+  ]
+}

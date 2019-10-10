@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GMThirdLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GMThirdLibrary.'
+  s.summary          = '三方的依赖库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,28 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+三方的依赖库 1.钥匙串保存库
                        DESC
 
-  s.homepage         = 'https://github.com/ioszhanghui@163.com/GMThirdLibrary'
+  s.homepage         = 'https://github.com/ioszhanghui/GMThirdLibrary.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioszhanghui@163.com' => 'yomingyo@gmail.com' }
-  s.source           = { :git => 'https://github.com/ioszhanghui@163.com/GMThirdLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ioszhanghui/GMThirdLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
+    s.requires_arc = true
   s.source_files = 'GMThirdLibrary/Classes/**/*'
+
+
+#微信 QQ 新浪 基础组件
+s.subspec 'GMkeyChain' do |aa|
+        aa.source_files = 'GMThirdLibrary/Classes/keyChain/**/*'
+        aa.frameworks     = 'Security'
+end
+
+
   
   # s.resource_bundles = {
   #   'GMThirdLibrary' => ['GMThirdLibrary/Assets/*.png']

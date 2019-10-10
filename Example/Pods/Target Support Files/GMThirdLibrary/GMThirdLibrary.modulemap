@@ -1,0 +1,6 @@
+framework module GMThirdLibrary {
+  umbrella header "GMThirdLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
