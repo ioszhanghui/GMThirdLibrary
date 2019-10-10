@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GMThirdLibrary_Example' do
+  pod 'GMThirdLibrary', :path => '../'
+
+  target 'GMThirdLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
