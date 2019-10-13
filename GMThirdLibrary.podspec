@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   #配置那些支持ARC 那些不支持ARC，支持ARC的资源文件放在[]中
   s.requires_arc = ['GMThirdLibrary/Classes/GMAlipaySDK/**/*','GMThirdLibrary/Classes/GMBaseSDK/**/*','GMThirdLibrary/Classes/GMUMSDK/**/*','GMThirdLibrary/Classes/IMSDK_ios/**/*']
+  s.static_framework = true
 
 #微信 QQ 新浪 基础组件
 s.subspec 'GMBaseSDK' do |aa|
@@ -134,7 +135,7 @@ s.subspec 'GMkeyChain' do |ee|
     ee.source_files = 'GMThirdLibrary/Classes/keyChain/**/*'
     ee.frameworks     = 'Security'
 end
-  
+#
   # s.resource_bundles = {
   #   'GMThirdLibrary' => ['GMThirdLibrary/Assets/*.png']
   # }

@@ -24,6 +24,7 @@
     "GMThirdLibrary/Classes/GMUMSDK/**/*",
     "GMThirdLibrary/Classes/IMSDK_ios/**/*"
   ],
+  "static_framework": true,
   "subspecs": [
     {
       "name": "GMBaseSDK",

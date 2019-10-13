@@ -1,1 +1,0 @@
-../../../../../GMThirdLibrary/Classes/GMBaseSDK/GMWechatSDK/WechatAuthSDK.h

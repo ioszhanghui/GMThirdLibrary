@@ -1,1 +1,0 @@
-../../../../../../GMThirdLibrary/Classes/GMBaseSDK/GMTencentOpenApiSDK/TencentOpenAPI.framework/Headers/TencentOAuthObject.h

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D92C7B96CB5CF1A74D81D94 /* libPods-GMThirdLibrary_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F839FFC85AE32E9D8B2069AC /* libPods-GMThirdLibrary_Example.a */; };
-		4B39FE210C73F138CE6296BD /* libPods-GMThirdLibrary_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35793B78D9F2780C4762C88 /* libPods-GMThirdLibrary_Tests.a */; };
+		5A140D803536BAC82C6939AE /* Pods_GMThirdLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57DA4797E777C37EEA6A23C /* Pods_GMThirdLibrary_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CD6CC8BA33DD9BFD3D91D722 /* Pods_GMThirdLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C9E28B1CFD5B9DF4FF1F4 /* Pods_GMThirdLibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,16 +57,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		632C9E28B1CFD5B9DF4FF1F4 /* Pods_GMThirdLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMThirdLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ECB19497EAC993EBE8B7FB /* Pods-GMThirdLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMThirdLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMThirdLibrary_Tests/Pods-GMThirdLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EC7DA5DF4E551C697AEBA6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C57DA4797E777C37EEA6A23C /* Pods_GMThirdLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMThirdLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0C24E2E46645CDC7E04797 /* Pods-GMThirdLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMThirdLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMThirdLibrary_Example/Pods-GMThirdLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2FEA0744D47D3D42E538BF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D35793B78D9F2780C4762C88 /* libPods-GMThirdLibrary_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMThirdLibrary_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BD9999BA80996007AB1554 /* Pods-GMThirdLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMThirdLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMThirdLibrary_Example/Pods-GMThirdLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E940393D8E9D2FBE1E9E2987 /* GMThirdLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMThirdLibrary.podspec; path = ../GMThirdLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F839FFC85AE32E9D8B2069AC /* libPods-GMThirdLibrary_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMThirdLibrary_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3D92C7B96CB5CF1A74D81D94 /* libPods-GMThirdLibrary_Example.a in Frameworks */,
+				CD6CC8BA33DD9BFD3D91D722 /* Pods_GMThirdLibrary_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4B39FE210C73F138CE6296BD /* libPods-GMThirdLibrary_Tests.a in Frameworks */,
+				5A140D803536BAC82C6939AE /* Pods_GMThirdLibrary_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F839FFC85AE32E9D8B2069AC /* libPods-GMThirdLibrary_Example.a */,
-				D35793B78D9F2780C4762C88 /* libPods-GMThirdLibrary_Tests.a */,
+				632C9E28B1CFD5B9DF4FF1F4 /* Pods_GMThirdLibrary_Example.framework */,
+				C57DA4797E777C37EEA6A23C /* Pods_GMThirdLibrary_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6412F487017598072011CAF0 /* [CP] Copy Pods Resources */,
+				E50EBC3AFF090803CB09B465 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +227,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				3F0A4110A9E002F7E5CC40E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +299,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3F0A4110A9E002F7E5CC40E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GMThirdLibrary_Tests/Pods-GMThirdLibrary_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMThirdLibrary_Tests/Pods-GMThirdLibrary_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		612ED532D2C6D1983461A0D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,7 +346,6 @@
 				"${PODS_ROOT}/../../GMThirdLibrary/Assets/GMWeibo_SDK/WeiboSDK.bundle",
 				"${PODS_ROOT}/../../GMThirdLibrary/Assets/UMBundle/UMSocialSDKResources.bundle",
 				"${PODS_ROOT}/../../GMThirdLibrary/Assets/GMIMSDKRelease/IMResource.bundle",
-				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -334,11 +353,36 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IMResource.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMThirdLibrary_Example/Pods-GMThirdLibrary_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50EBC3AFF090803CB09B465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GMThirdLibrary_Example/Pods-GMThirdLibrary_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMThirdLibrary_Example/Pods-GMThirdLibrary_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F18929CB5212B641AD60E7BC /* [CP] Check Pods Manifest.lock */ = {
