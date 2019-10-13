@@ -1,0 +1,1 @@
+../../../../../../GMThirdLibrary/Classes/GMUMSDK/UMSocialUI/UShareUI.framework/Headers/UMSocialShareUIConfig.h

@@ -1,0 +1,1 @@
+../../../../../GMThirdLibrary/Classes/GMUMSDK/UMShare/QQ/UMSocialQQHandler.h

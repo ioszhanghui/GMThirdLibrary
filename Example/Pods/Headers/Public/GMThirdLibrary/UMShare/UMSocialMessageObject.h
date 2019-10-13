@@ -1,0 +1,1 @@
+../../../../../../GMThirdLibrary/Classes/GMUMSDK/Core/UMShare.framework/Headers/UMSocialMessageObject.h

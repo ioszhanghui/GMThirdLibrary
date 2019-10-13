@@ -1,4 +1,4 @@
-framework module Pods_GMThirdLibrary_Tests {
+module Pods_GMThirdLibrary_Tests {
   umbrella header "Pods-GMThirdLibrary_Tests-umbrella.h"
 
   export *

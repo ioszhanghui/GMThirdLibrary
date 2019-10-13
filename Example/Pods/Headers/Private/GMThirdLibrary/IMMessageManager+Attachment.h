@@ -1,0 +1,1 @@
+../../../../../GMThirdLibrary/Classes/IMSDK_ios/Headers/IMMessageManager+Attachment.h

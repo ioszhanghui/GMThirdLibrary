@@ -1,0 +1,1 @@
+../../../../../../GMThirdLibrary/Classes/GMBaseSDK/GMTencentOpenApiSDK/TencentOpenAPI.framework/Headers/QQApiInterface.h

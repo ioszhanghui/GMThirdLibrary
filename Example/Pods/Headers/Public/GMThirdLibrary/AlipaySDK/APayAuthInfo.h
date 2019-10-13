@@ -1,0 +1,1 @@
+../../../../../../GMThirdLibrary/Classes/GMAlipaySDK/AlipaySDK.framework/Headers/APayAuthInfo.h

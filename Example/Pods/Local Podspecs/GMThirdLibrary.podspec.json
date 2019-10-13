@@ -18,13 +18,235 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GMThirdLibrary/Classes/**/*",
+  "requires_arc": [
+    "GMThirdLibrary/Classes/GMAlipaySDK/**/*",
+    "GMThirdLibrary/Classes/GMBaseSDK/**/*",
+    "GMThirdLibrary/Classes/GMUMSDK/**/*",
+    "GMThirdLibrary/Classes/IMSDK_ios/**/*"
+  ],
   "subspecs": [
+    {
+      "name": "GMBaseSDK",
+      "subspecs": [
+        {
+          "name": "GMTencentOpenApiSDK",
+          "ios": {
+            "vendored_frameworks": "GMThirdLibrary/Classes/GMBaseSDK/GMTencentOpenApiSDK/*.framework"
+          },
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        },
+        {
+          "name": "GMWechatSDK",
+          "source_files": "GMThirdLibrary/Classes/GMBaseSDK/GMWechatSDK/*.h",
+          "ios": {
+            "vendored_libraries": "GMThirdLibrary/Classes/GMBaseSDK/GMWechatSDK/*.a"
+          },
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony",
+            "CFNetwork",
+            "CoreGraphics"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        },
+        {
+          "name": "GMWeibo_SDK",
+          "source_files": "GMThirdLibrary/Classes/GMBaseSDK/GMWeibo_SDK/*.h",
+          "ios": {
+            "vendored_libraries": "GMThirdLibrary/Classes/GMBaseSDK/GMWeibo_SDK/*.a"
+          },
+          "resources": "GMThirdLibrary/Assets/GMWeibo_SDK/*.bundle",
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony",
+            "CFNetwork",
+            "CoreGraphics",
+            "QuartzCore",
+            "ImageIO",
+            "CoreText",
+            "Photos"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMUMSDK",
+      "dependencies": {
+        "GMThirdLibrary/GMBaseSDK": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Core",
+          "ios": {
+            "vendored_frameworks": "GMThirdLibrary/Classes/GMUMSDK/Core/*.framework"
+          }
+        },
+        {
+          "name": "UMSocialUI",
+          "ios": {
+            "vendored_frameworks": "GMThirdLibrary/Classes/GMUMSDK/UMSocialUI/*.framework",
+            "resources": "GMThirdLibrary/Assets/UMBundle/*.bundle"
+          },
+          "dependencies": {
+            "GMThirdLibrary/GMUMSDK/UMShare": [
+
+            ],
+            "GMThirdLibrary/GMUMSDK/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "UMShare",
+          "subspecs": [
+            {
+              "name": "QQ",
+              "source_files": "GMThirdLibrary/Classes/GMUMSDK/UMShare/QQ/*.h",
+              "ios": {
+                "vendored_libraries": "GMThirdLibrary/Classes/GMUMSDK/UMShare/QQ/*.a"
+              },
+              "dependencies": {
+                "GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK": [
+
+                ],
+                "GMThirdLibrary/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            },
+            {
+              "name": "Sina",
+              "source_files": "GMThirdLibrary/Classes/GMUMSDK/UMShare/Sina/*.h",
+              "ios": {
+                "vendored_libraries": "GMThirdLibrary/Classes/GMUMSDK/UMShare/Sina/*.a"
+              },
+              "dependencies": {
+                "GMThirdLibrary/GMBaseSDK/GMWeibo_SDK": [
+
+                ],
+                "GMThirdLibrary/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            },
+            {
+              "name": "WeChat",
+              "source_files": "GMThirdLibrary/Classes/GMUMSDK/UMShare/WeChat/*.h",
+              "ios": {
+                "vendored_libraries": "GMThirdLibrary/Classes/GMUMSDK/UMShare/WeChat/*.a"
+              },
+              "dependencies": {
+                "GMThirdLibrary/GMBaseSDK/GMWechatSDK": [
+
+                ],
+                "GMThirdLibrary/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IMSDK_ios",
+      "ios": {
+        "vendored_libraries": "GMThirdLibrary/Classes/IMSDK_ios/*.a",
+        "resources": "GMThirdLibrary/Assets/GMIMSDKRelease/*.bundle"
+      },
+      "source_files": "GMThirdLibrary/Classes/IMSDK_ios/**/*.h",
+      "frameworks": [
+        "SystemConfiguration",
+        "UIKit",
+        "Foundation"
+      ],
+      "libraries": "sqlite3",
+      "dependencies": {
+        "Reachability": [
+
+        ],
+        "AFNetworking": [
+
+        ],
+        "FMDB": [
+
+        ],
+        "SSZipArchive": [
+
+        ],
+        "SAMKeychain": [
+
+        ]
+      }
+    },
+    {
+      "name": "GMAlipaySDK",
+      "ios": {
+        "vendored_frameworks": "GMThirdLibrary/Classes/GMAlipaySDK/*.framework",
+        "vendored_libraries": "GMThirdLibrary/Classes/GMAlipaySDK/*.a"
+      },
+      "resources": "GMThirdLibrary/Assets/GMAlipayBundle/*.bundle",
+      "libraries": [
+        "stdc++",
+        "iconv",
+        "sqlite3",
+        "z",
+        "icucore",
+        "c++"
+      ],
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CoreTelephony",
+        "CoreGraphics",
+        "SystemConfiguration",
+        "Security",
+        "CoreMotion",
+        "CoreGraphics",
+        "CFNetwork"
+      ]
+    },
     {
       "name": "GMkeyChain",
       "source_files": "GMThirdLibrary/Classes/keyChain/**/*",
-      "frameworks": "Security",
-      "requires_arc": true
+      "frameworks": "Security"
     }
   ]
 }
