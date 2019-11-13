@@ -248,6 +248,11 @@
       "name": "GMkeyChain",
       "source_files": "GMThirdLibrary/Classes/keyChain/**/*",
       "frameworks": "Security"
+    },
+    {
+      "name": "GMObjection",
+      "source_files": "GMThirdLibrary/Classes/objection/**/*",
+      "frameworks": "WebKit"
     }
   ]
 }

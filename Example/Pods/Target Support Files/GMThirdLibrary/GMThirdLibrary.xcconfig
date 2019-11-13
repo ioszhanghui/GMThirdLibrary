@@ -1,11 +1,10 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/GMThirdLibrary
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMAlipaySDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMBaseSDK/GMTencentOpenApiSDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/Core" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/UMSocialUI" "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive" "${PODS_ROOT}/UMCCommon"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMAlipaySDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMBaseSDK/GMTencentOpenApiSDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/Core" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/UMSocialUI" "${PODS_ROOT}/UMCCommon"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMAlipaySDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMBaseSDK/GMWechatSDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMBaseSDK/GMWeibo_SDK" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/UMShare/QQ" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/UMShare/Sina" "${PODS_ROOT}/../../GMThirdLibrary/Classes/GMUMSDK/UMShare/WeChat" "${PODS_ROOT}/../../GMThirdLibrary/Classes/IMSDK_ios"
-OTHER_LDFLAGS = -l"GMIMSDKRelease" -l"SocialOfficialWeChat" -l"SocialQQ" -l"SocialSina" -l"SocialWeChat" -l"WeChatSDK" -l"WeiboSDK" -l"c++" -l"crypto" -l"iconv" -l"icucore" -l"sqlite3" -l"ssl" -l"stdc++" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "Photos" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit" -framework "UMShare" -framework "UShareUI"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
 PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

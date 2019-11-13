@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GMThirdLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '三方的依赖库'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-三方的依赖库 1.钥匙串保存库
+三方的依赖库
+1.钥匙串保存库
+2.依赖注入 objection
+3.微信支付 分享 支持 1.8.6
+
                        DESC
 
   s.homepage         = 'https://github.com/ioszhanghui/GMThirdLibrary.git'
@@ -29,7 +33,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '9.0'
   #配置那些支持ARC 那些不支持ARC，支持ARC的资源文件放在[]中
-  s.requires_arc = ['GMThirdLibrary/Classes/GMAlipaySDK/**/*','GMThirdLibrary/Classes/GMBaseSDK/**/*','GMThirdLibrary/Classes/GMUMSDK/**/*','GMThirdLibrary/Classes/IMSDK_ios/**/*']
+  s.requires_arc = ['GMThirdLibrary/Classes/GMAlipaySDK/**/*','GMThirdLibrary/Classes/GMBaseSDK/**/*','GMThirdLibrary/Classes/GMUMSDK/**/*','GMThirdLibrary/Classes/IMSDK_ios/**/*','GMThirdLibrary/Classes/GMObjection/**/*']
   s.static_framework = true
 
 #微信 QQ 新浪 基础组件
@@ -134,6 +138,12 @@ end
 s.subspec 'GMkeyChain' do |ee|
     ee.source_files = 'GMThirdLibrary/Classes/keyChain/**/*'
     ee.frameworks     = 'Security'
+end
+
+#objection 依赖注入
+s.subspec 'GMObjection' do |ff|
+    ff.source_files = 'GMThirdLibrary/Classes/objection/**/*'
+    ff.frameworks = 'WebKit'
 end
 #
   # s.resource_bundles = {
