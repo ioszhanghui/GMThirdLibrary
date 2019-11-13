@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '9.0'
   #配置那些支持ARC 那些不支持ARC，支持ARC的资源文件放在[]中
-  s.requires_arc = ['GMThirdLibrary/Classes/GMAlipaySDK/**/*','GMThirdLibrary/Classes/GMBaseSDK/**/*','GMThirdLibrary/Classes/GMUMSDK/**/*','GMThirdLibrary/Classes/IMSDK_ios/**/*','GMThirdLibrary/Classes/GMObjection/**/*']
+  s.requires_arc = ['GMThirdLibrary/Classes/GMAlipaySDK/**/*','GMThirdLibrary/Classes/GMBaseSDK/**/*','GMThirdLibrary/Classes/GMUMSDK/**/*','GMThirdLibrary/Classes/IMSDK_ios/**/*','GMThirdLibrary/Classes/objection/**/*']
   s.static_framework = true
 
 #微信 QQ 新浪 基础组件
