@@ -22,55 +22,55 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - GMThirdLibrary (0.1.0):
-    - GMThirdLibrary/GMAlipaySDK (= 0.1.0)
-    - GMThirdLibrary/GMBaseSDK (= 0.1.0)
-    - GMThirdLibrary/GMkeyChain (= 0.1.0)
-    - GMThirdLibrary/GMObjection (= 0.1.0)
-    - GMThirdLibrary/GMUMSDK (= 0.1.0)
-    - GMThirdLibrary/IMSDK_ios (= 0.1.0)
-  - GMThirdLibrary/GMAlipaySDK (0.1.0)
-  - GMThirdLibrary/GMBaseSDK (0.1.0):
-    - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK (= 0.1.0)
-    - GMThirdLibrary/GMBaseSDK/GMWechatSDK (= 0.1.0)
-    - GMThirdLibrary/GMBaseSDK/GMWeibo_SDK (= 0.1.0)
-  - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK (0.1.0)
-  - GMThirdLibrary/GMBaseSDK/GMWechatSDK (0.1.0)
-  - GMThirdLibrary/GMBaseSDK/GMWeibo_SDK (0.1.0)
-  - GMThirdLibrary/GMkeyChain (0.1.0)
-  - GMThirdLibrary/GMObjection (0.1.0)
-  - GMThirdLibrary/GMUMSDK (0.1.0):
+  - GMThirdLibrary (0.2.0):
+    - GMThirdLibrary/GMAlipaySDK (= 0.2.0)
+    - GMThirdLibrary/GMBaseSDK (= 0.2.0)
+    - GMThirdLibrary/GMkeyChain (= 0.2.0)
+    - GMThirdLibrary/GMObjection (= 0.2.0)
+    - GMThirdLibrary/GMUMSDK (= 0.2.0)
+    - GMThirdLibrary/IMSDK_ios (= 0.2.0)
+  - GMThirdLibrary/GMAlipaySDK (0.2.0)
+  - GMThirdLibrary/GMBaseSDK (0.2.0):
+    - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK (= 0.2.0)
+    - GMThirdLibrary/GMBaseSDK/GMWechatSDK (= 0.2.0)
+    - GMThirdLibrary/GMBaseSDK/GMWeibo_SDK (= 0.2.0)
+  - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK (0.2.0)
+  - GMThirdLibrary/GMBaseSDK/GMWechatSDK (0.2.0)
+  - GMThirdLibrary/GMBaseSDK/GMWeibo_SDK (0.2.0)
+  - GMThirdLibrary/GMkeyChain (0.2.0)
+  - GMThirdLibrary/GMObjection (0.2.0)
+  - GMThirdLibrary/GMUMSDK (0.2.0):
     - GMThirdLibrary/GMBaseSDK
-    - GMThirdLibrary/GMUMSDK/Core (= 0.1.0)
-    - GMThirdLibrary/GMUMSDK/UMShare (= 0.1.0)
-    - GMThirdLibrary/GMUMSDK/UMSocialUI (= 0.1.0)
-  - GMThirdLibrary/GMUMSDK/Core (0.1.0):
+    - GMThirdLibrary/GMUMSDK/Core (= 0.2.0)
+    - GMThirdLibrary/GMUMSDK/UMShare (= 0.2.0)
+    - GMThirdLibrary/GMUMSDK/UMSocialUI (= 0.2.0)
+  - GMThirdLibrary/GMUMSDK/Core (0.2.0):
     - GMThirdLibrary/GMBaseSDK
-  - GMThirdLibrary/GMUMSDK/UMShare (0.1.0):
+  - GMThirdLibrary/GMUMSDK/UMShare (0.2.0):
     - GMThirdLibrary/GMBaseSDK
-    - GMThirdLibrary/GMUMSDK/UMShare/QQ (= 0.1.0)
-    - GMThirdLibrary/GMUMSDK/UMShare/Sina (= 0.1.0)
-    - GMThirdLibrary/GMUMSDK/UMShare/WeChat (= 0.1.0)
-  - GMThirdLibrary/GMUMSDK/UMShare/QQ (0.1.0):
+    - GMThirdLibrary/GMUMSDK/UMShare/QQ (= 0.2.0)
+    - GMThirdLibrary/GMUMSDK/UMShare/Sina (= 0.2.0)
+    - GMThirdLibrary/GMUMSDK/UMShare/WeChat (= 0.2.0)
+  - GMThirdLibrary/GMUMSDK/UMShare/QQ (0.2.0):
     - GMThirdLibrary/GMBaseSDK
     - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK
     - GMThirdLibrary/GMUMSDK/Core
     - UMCCommon
-  - GMThirdLibrary/GMUMSDK/UMShare/Sina (0.1.0):
+  - GMThirdLibrary/GMUMSDK/UMShare/Sina (0.2.0):
     - GMThirdLibrary/GMBaseSDK
     - GMThirdLibrary/GMBaseSDK/GMWeibo_SDK
     - GMThirdLibrary/GMUMSDK/Core
     - UMCCommon
-  - GMThirdLibrary/GMUMSDK/UMShare/WeChat (0.1.0):
+  - GMThirdLibrary/GMUMSDK/UMShare/WeChat (0.2.0):
     - GMThirdLibrary/GMBaseSDK
     - GMThirdLibrary/GMBaseSDK/GMWechatSDK
     - GMThirdLibrary/GMUMSDK/Core
     - UMCCommon
-  - GMThirdLibrary/GMUMSDK/UMSocialUI (0.1.0):
+  - GMThirdLibrary/GMUMSDK/UMSocialUI (0.2.0):
     - GMThirdLibrary/GMBaseSDK
     - GMThirdLibrary/GMUMSDK/Core
     - GMThirdLibrary/GMUMSDK/UMShare
-  - GMThirdLibrary/IMSDK_ios (0.1.0):
+  - GMThirdLibrary/IMSDK_ios (0.2.0):
     - AFNetworking
     - FMDB
     - Reachability
@@ -103,7 +103,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  GMThirdLibrary: 8d6546ffe03502b1f1ccf2b63f02075b3e3fed14
+  GMThirdLibrary: 1d40dd1d4a20136cdf01ddf92739daf5edf653f5
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
