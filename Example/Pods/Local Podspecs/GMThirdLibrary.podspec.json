@@ -1,6 +1,6 @@
 {
   "name": "GMThirdLibrary",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "三方的依赖库",
   "description": "三方的依赖库\n1.钥匙串保存库\n2.依赖注入 objection\n3.微信支付 分享 支持 1.8.6",
   "homepage": "https://github.com/ioszhanghui/GMThirdLibrary.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ioszhanghui/GMThirdLibrary.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,7 +23,7 @@
     "GMThirdLibrary/Classes/GMBaseSDK/**/*",
     "GMThirdLibrary/Classes/GMUMSDK/**/*",
     "GMThirdLibrary/Classes/IMSDK_ios/**/*",
-    "GMThirdLibrary/Classes/GMObjection/**/*"
+    "GMThirdLibrary/Classes/objection/**/*"
   ],
   "static_framework": true,
   "subspecs": [
@@ -101,6 +101,9 @@
       "name": "GMUMSDK",
       "dependencies": {
         "GMThirdLibrary/GMBaseSDK": [
+
+        ],
+        "UMCCommon": [
 
         ]
       },
