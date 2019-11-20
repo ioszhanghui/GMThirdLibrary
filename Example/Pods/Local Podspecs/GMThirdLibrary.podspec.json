@@ -1,8 +1,8 @@
 {
   "name": "GMThirdLibrary",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "summary": "三方的依赖库",
-  "description": "三方的依赖库\n1.钥匙串保存库\n2.依赖注入 objection\n3.微信支付 分享 支持 1.8.6",
+  "description": "三方的依赖库\n1.钥匙串保存库\n2.依赖注入 objection",
   "homepage": "https://github.com/ioszhanghui/GMThirdLibrary.git",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ioszhanghui/GMThirdLibrary.git",
-    "tag": "0.3.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
